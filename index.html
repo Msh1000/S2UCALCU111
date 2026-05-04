@@ -526,21 +526,15 @@
     @media (max-width: 560px) {
       body {
         align-items: stretch;
-        overflow: hidden;
         padding: 8px;
       }
       .app-shell {
         width: 100%;
-        height: calc(100svh - 16px);
       }
       .brand-card {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
         border-radius: 24px;
       }
       .hero {
-        flex: 0 0 auto;
         padding: 14px 14px 10px;
       }
       .top-row { align-items: center; gap: 10px; }
@@ -564,12 +558,7 @@
         line-height: 1.25;
       }
       main {
-        flex: 1 1 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         padding: 10px;
-        min-height: 0;
       }
       .section {
         padding: 10px;
@@ -676,7 +665,6 @@
 
     @media (max-width: 360px), (max-height: 700px) {
       body { padding: 6px; }
-      .app-shell { height: calc(100svh - 12px); }
       .hero { padding: 10px 12px 8px; }
       .logo-badge { width: 36px; height: 36px; font-size: 12px; }
       h1 { font-size: 24px; }
